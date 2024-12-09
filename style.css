@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color:white;
+    font-family: system-ui;
+}
+.crud{
+    width:90%;
+    margin: auto;
+}
+.head{
+    color: #cdcbcb;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+input{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    padding: 4px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 4px 0;
+}
+input:focus{
+    background-color:#e1dfde;
+    transform: scale(1.1);
+}
+.price input{
+    width: 20%;
+}
+#total{
+    background-color: rgb(199, 67, 67);
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+#total::before{
+    content: 'Total :';
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #d17320;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color:#454545;
+    letter-spacing: 1px;
+}
+.btnSearch {
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button{
+    width: 45%;
+}
+table,th,td{
+    width: 100%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+    background-color: #cdcbcb;
+    text-transform: uppercase;
+    color: black;
+}
+th,td{
+    padding: 5px;
+}
+tr:nth-child(even){
+background-color: #454545;
+}
+#deleteAll{
+    margin: 20px 0;
+}
+.inputs {
+    display: none;
+}
+#addpro{
+    margin-left: 87%;
+    width: 14%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 0;
+}
+#update{
+    background-color: rgb(86, 86, 245);
+}
+#delete{
+    background-color: rgb(234, 103, 103);
+}
